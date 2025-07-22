@@ -1,4 +1,4 @@
-import './header.css'
+import './HomePageHeader.css'
 import './HomePage.css'
 
 export function HomePage() {
@@ -188,6 +188,5 @@ export function HomePage() {
         </div>
       </div>
     </>
-    
   );
 }
