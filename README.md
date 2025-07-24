@@ -19,3 +19,10 @@
 - Keys in lists are required
 - Props" is short for properties — they’re how you pass data from a parent component to a child component.
   - A component can use the props it receives — but can’t change them directly.
+
+
+## Commands:
+* Git : To rename commit:
+  * git rebase -i HEAD~1
+  * Then, **ONLY** change pick to reword during the first git (in vim) prompt. Save and continue (:wq).
+  * Finally, during the second prompt, change the message and save.
