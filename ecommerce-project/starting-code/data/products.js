@@ -33,17 +33,6 @@ export const products = [
     keywords: ["tshirts", "apparel", "mens"]
   },
   {
-    id: "54e0eccd-8f36-462b-b68a-8182611d9add",
-    image: "images/products/2-slot-toaster-white.jpg",
-    name: "2 Slot Toaster - White",
-    rating: {
-      stars: 5,
-      count: 2197
-    },
-    priceCents: 1899,
-    keywords: ["toaster", "kitchen", "appliances"]
-  },
-  {
     id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
     image: "images/products/elegant-white-dinner-plate-set.jpg",
     name: "2 Piece White Dinner Plate Set",
@@ -66,17 +55,6 @@ export const products = [
     keywords: ["kitchen", "cookware"]
   },
   {
-    id: "dd82ca78-a18b-4e2a-9250-31e67412f98d",
-    image: "images/products/women-plain-cotton-oversized-sweater-gray.jpg",
-    name: "Cotton Oversized Sweater - Gray",
-    rating: {
-      stars: 4.5,
-      count: 317
-    },
-    priceCents: 2400,
-    keywords: ["sweaters", "apparel"]
-  },
-  {
     id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
     image: "images/products/luxury-towel-set.jpg",
     name: "2 Piece Luxury Towel Set - White",
@@ -97,17 +75,6 @@ export const products = [
     },
     priceCents: 2374,
     keywords: ["kleenex", "tissues", "kitchen", "napkins"]
-  },
-  {
-    id: "5968897c-4d27-4872-89f6-5bcb052746d7",
-    image: "images/products/women-striped-beach-dress.jpg",
-    name: "Women's Striped Beach Dress",
-    rating: {
-      stars: 4.5,
-      count: 235
-    },
-    priceCents: 2970,
-    keywords: ["robe", "swimsuit", "swimming", "bathing", "apparel"]
   },
   {
     id: "b86ddc8b-3501-4b17-9889-a3bad6fb585f",
@@ -143,28 +110,6 @@ export const products = [
     keywords: ["bedroom", "curtains", "home"]
   },
   {
-    id: "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
-    image: "images/products/women-summer-jean-shorts.jpg",
-    name: "Women's Summer Jean Shorts",
-    rating: {
-      stars: 4,
-      count: 160
-    },
-    priceCents: 1699,
-    keywords: ["shorts", "apparel", "mens"]
-  },
-  {
-    id: "c2a82c5e-aff4-435f-9975-517cfaba2ece",
-    image: "images/products/electric-steel-hot-water-kettle-white.jpg",
-    name: "Electric Hot Water Kettle - White",
-    rating: {
-      stars: 5,
-      count: 846
-    },
-    priceCents: 5074,
-    keywords: ["water kettle", "appliances", "kitchen"]
-  },
-  {
     id: "58b4fc92-e98c-42aa-8c55-b6b79996769a",
     image: "images/products/knit-athletic-sneakers-gray.jpg",
     name: "Waterproof Knit Athletic Sneakers - Gray",
@@ -198,17 +143,6 @@ export const products = [
     keywords: ["shoes", "running shoes", "footwear", "mens"]
   },
   {
-    id: "b0f17cc5-8b40-4ca5-9142-b61fe3d98c85",
-    image: "images/products/men-stretch-wool-sweater-black.jpg",
-    name: "Men's Wool Sweater - Black",
-    rating: {
-      stars: 4.5,
-      count: 2465
-    },
-    priceCents: 3374,
-    keywords: ["sweaters", "apparel"]
-  },
-  {
     id: "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
     image: "images/products/bathroom-mat.jpg",
     name: "Bathroom Bath Mat 16 x 32 Inch - Grey",
@@ -218,17 +152,6 @@ export const products = [
     },
     priceCents: 1850,
     keywords: ["bathmat", "bathroom", "home"]
-  },
-  {
-    id: "4f4fbcc2-4e72-45cc-935c-9e13d79cc57f",
-    image: "images/products/women-knit-ballet-flat-white.jpg",
-    name: "Women's Ballet Flat - White",
-    rating: {
-      stars: 4,
-      count: 326
-    },
-    priceCents: 2640,
-    keywords: ["shoes", "flats", "womens", "footwear"]
   },
   {
     id: "8b5a2ee1-6055-422a-a666-b34ba28b76d4",
@@ -275,28 +198,6 @@ export const products = [
     keywords: ["bedroom", "bed sheets", "sheets", "covers", "home"]
   },
   {
-    id: "d2785924-743d-49b3-8f03-ec258e640503",
-    image: "images/products/women-knit-beanie-pom-pom-blue.jpg",
-    name: "Women's Knit Winter Beanie - Blue",
-    rating: {
-      stars: 5,
-      count: 83
-    },
-    priceCents: 1950,
-    keywords: ["hats", "winter hats", "beanies", "apparel", "womens"]
-  },
-  {
-    id: "ee1f7c56-f977-40a4-9642-12ba5072e2b0",
-    image: "images/products/men-chino-pants-beige.jpg",
-    name: "Men's Chino Pants - Beige",
-    rating: {
-      stars: 4.5,
-      count: 9017
-    },
-    priceCents: 2290,
-    keywords: ["pants", "apparel", "mens"]
-  },
-  {
     id: "4df68c27-fd59-4a6a-bbd1-e754ddb6d53c",
     image: "images/products/men-navigator-sunglasses-black.jpg",
     name: "Men's Navigator Sunglasses",
@@ -339,17 +240,6 @@ export const products = [
     },
     priceCents: 2549,
     keywords: ["bathroom", "washroom", "mirrors", "home"]
-  },
-  {
-    id: "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
-    image: "images/products/women-relaxed-lounge-pants-pink.jpg",
-    name: "Women's Relaxed Lounge Pants - Pink",
-    rating: {
-      stars: 4.5,
-      count: 248
-    },
-    priceCents: 3400,
-    keywords: ["pants", "pants", "apparel", "womens"]
   },
   {
     id: "d339adf3-e004-4c20-a120-40e8874c66cb",
@@ -418,28 +308,6 @@ export const products = [
     keywords: ["shoes", "running shoes", "footwear"]
   },
   {
-    id: "77a845b1-16ed-4eac-bdf9-5b591882113d",
-    image: "images/products/countertop-push-blender-black.jpg",
-    name: "Countertop Push Blender - Black",
-    rating: {
-      stars: 4,
-      count: 3
-    },
-    priceCents: 10747,
-    keywords: ["food blenders", "kitchen", "appliances"]
-  },
-  {
-    id: "bc2847e9-5323-403f-b7cf-57fde044a955",
-    image: "images/products/men-cozy-fleece-hoodie-light-teal.jpg",
-    name: "Men's Fleece Hoodie - Light Teal",
-    rating: {
-      stars: 4.5,
-      count: 3157
-    },
-    priceCents: 3800,
-    keywords: ["sweaters", "hoodies", "apparel", "mens"]
-  },
-  {
     id: "36c64692-677f-4f58-b5ec-0dc2cf109e27",
     image: "images/products/artistic-bowl-set-6-piece.jpg",
     name: "Artistic Bowl and Plate Set - 6 Pieces",
@@ -450,15 +318,4 @@ export const products = [
     priceCents: 3899,
     keywords: ["bowls set", "kitchen"]
   },
-  {
-    id: "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
-    image: "images/products/kitchen-paper-towels-8-pack.jpg",
-    name: "2-Ply Kitchen Paper Towels - 8 Pack",
-    rating: {
-      stars: 4.5,
-      count: 1045
-    },
-    priceCents: 1899,
-    keywords: ["kitchen", "kitchen towels", "tissues"]
-  }
 ];
