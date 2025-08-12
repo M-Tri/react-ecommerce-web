@@ -5,25 +5,31 @@ import { ProductsGrid } from './ProductsGrid';
 import './HomePage.css';
 
 
-export function HomePage({cart}) {
+export function HomePage({ cart }) {
 
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get('/api/products')
-    .then((response) => {
-      setProducts(response.data)
-    })
+    const fetchProducts = async () => {
+      try {
+        const response = await axios.get('/api/products');
+        setProducts(response.data);
+      } catch (error) {
+        console.error('Error fetching products:', error);
+      }
+    };
+
+    fetchProducts();
   }, []);
-  
+
   return (
     <>
       <title>Ecommerce Project</title>
 
-      <Header cart={cart}/>
+      <Header cart={cart} />
 
       <div className="home-page">
-        <ProductsGrid products={products}/>
+        <ProductsGrid products={products} />
       </div>
     </>
   );
