@@ -34,8 +34,8 @@ export const defaultProducts = [
   },
   {
     "id": "54e0eccd-8f36-462b-b68a-8182611d9add",
-    "image": "images/products/imageNotProvided.jpg",
-    "name": "Toaster - White",
+    "image": "images/products/2-slot-toaster-white.jpg",
+    "name": "2 Slot Toaster - White",
     "rating": {
       "stars": 5,
       "count": 2197
@@ -45,7 +45,7 @@ export const defaultProducts = [
   },
   {
     "id": "3ebe75dc-64d2-4137-8860-1f5a963e534b",
-    "image": "images/products/imageNotProvided.jpg",
+    "image": "images/products/elegant-white-dinner-plate-set.jpg",
     "name": "2 Piece White Dinner Plate Set",
     "rating": {
       "stars": 4,
@@ -67,7 +67,7 @@ export const defaultProducts = [
   },
   {
     "id": "dd82ca78-a18b-4e2a-9250-31e67412f98d",
-    "image": "images/products/imageNotProvided.jpg",
+    "image": "images/products/women-plain-cotton-oversized-sweater-gray.jpg",
     "name": "Cotton Oversized Sweater - Gray",
     "rating": {
       "stars": 4.5,
@@ -100,7 +100,7 @@ export const defaultProducts = [
   },
   {
     "id": "5968897c-4d27-4872-89f6-5bcb052746d7",
-    "image": "images/products/imageNotProvided.jpg",
+    "image": "images/products/women-striped-beach-dress.jpg",
     "name": "Women's Striped Beach Dress",
     "rating": {
       "stars": 4.5,
@@ -144,7 +144,7 @@ export const defaultProducts = [
   },
   {
     "id": "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
-    "image": "images/products/imageNotProvided.jpg",
+    "image": "images/products/women-summer-jean-shorts.jpg",
     "name": "Women's Summer Jean Shorts",
     "rating": {
       "stars": 4,
@@ -199,7 +199,7 @@ export const defaultProducts = [
   },
   {
     "id": "b0f17cc5-8b40-4ca5-9142-b61fe3d98c85",
-    "image": "images/products/imageNotProvided.jpg",
+    "image": "images/products/men-stretch-wool-sweater-black.jpg",
     "name": "Men's Wool Sweater - Black",
     "rating": {
       "stars": 4.5,
@@ -276,7 +276,7 @@ export const defaultProducts = [
   },
   {
     "id": "d2785924-743d-49b3-8f03-ec258e640503",
-    "image": "images/products/imageNotProvided.jpg",
+    "image": "images/products/women-knit-beanie-pom-pom-blue.jpg",
     "name": "Women's Knit Winter Beanie - Blue",
     "rating": {
       "stars": 5,
@@ -287,7 +287,7 @@ export const defaultProducts = [
   },
   {
     "id": "ee1f7c56-f977-40a4-9642-12ba5072e2b0",
-    "image": "images/products/imageNotProvided.jpg",
+    "image": "images/products/men-chino-pants-beige.jpg",
     "name": "Men's Chino Pants - Beige",
     "rating": {
       "stars": 4.5,
@@ -342,7 +342,7 @@ export const defaultProducts = [
   },
   {
     "id": "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
-    "image": "images/products/imageNotProvided.jpg",
+    "image": "images/products/women-relaxed-lounge-pants-pink.jpg",
     "name": "Women's Relaxed Lounge Pants - Pink",
     "rating": {
       "stars": 4.5,
@@ -419,7 +419,7 @@ export const defaultProducts = [
   },
   {
     "id": "77a845b1-16ed-4eac-bdf9-5b591882113d",
-    "image": "images/products/imageNotProvided.jpg",
+    "image": "images/products/countertop-push-blender-black.jpg",
     "name": "Countertop Push Blender - Black",
     "rating": {
       "stars": 4,
@@ -430,7 +430,7 @@ export const defaultProducts = [
   },
   {
     "id": "bc2847e9-5323-403f-b7cf-57fde044a955",
-    "image": "images/products/imageNotProvided.jpg",
+    "image": "images/products/men-cozy-fleece-hoodie-light-teal.jpg",
     "name": "Men's Fleece Hoodie - Light Teal",
     "rating": {
       "stars": 4.5,
@@ -452,7 +452,7 @@ export const defaultProducts = [
   },
   {
     "id": "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
-    "image": "images/products/imageNotProvided.jpg",
+    "image": "images/products/kitchen-paper-towels-8-pack.jpg",
     "name": "2-Ply Kitchen Paper Towels - 8 Pack",
     "rating": {
       "stars": 4.5,
