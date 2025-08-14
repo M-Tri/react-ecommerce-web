@@ -1,28 +1,62 @@
-## Steps
-- npx create-vite@6.2.0
-- cd into project folder
-- npm install
-- npm run dev
+````markdown
+# Ecommerce Project
 
+This project has a **React frontend (converted to TypeScript)** (`ecommerce-project`) and a **Node.js backend** (`ecommerce-backend`). Follow these steps to run it locally.
 
-## Notes:
+---
 
-- JSX must return a single parent element
-- class becomes className in JSX
-- You must close all tags
-- JSX (JavaScript XML) is a syntax extension for JavaScript that lets you write code that looks like HTML but works like JavaScript. It’s a shortcut to JavaScript function calls that looks like HTML.
-- JSX curly braces ({}) only accept JavaScript expressions, not statements:
-  - 'If' is a statement
-  - 'Ternary' is an expression. This is an operator like " + "
--   Components must return something
-- Hooks must follow rules
-- Keys in lists are required
-- Props" is short for properties — they’re how you pass data from a parent component to a child component.
-  - A component can use the props it receives — but can’t change them directly.
+## Prerequisites
 
+- Node.js and npm installed
+- Both frontend and backend folders available
 
-## Commands:
-* Git : To rename commit:
-  * git rebase -i HEAD~1
-  * Then, **ONLY** change pick to reword during the first git (in vim) prompt. Save and continue (:wq).
-  * Finally, during the second prompt, change the message and save.
+---
+
+## Run the Backend
+
+1. Go to the backend folder:
+   ```bash
+   cd ecommerce-backend
+````
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+3. Start the backend server:
+
+   ```bash
+   node server.js
+   ```
+4. Backend usually runs on `http://localhost:5000`.
+
+---
+
+## Run the Frontend
+
+1. Go to the frontend folder:
+
+   ```bash
+   cd ../ecommerce-project
+   ```
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+4. Open the URL printed in the terminal (usually `http://localhost:5173`).
+
+---
+
+## Notes
+
+* The frontend is written in TypeScript, but type checking may not be fully implemented.
+* Make sure the backend is running first, otherwise the frontend cannot fetch product data.
+* Some features (like search) may not be fully functional yet.
+
