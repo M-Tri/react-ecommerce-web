@@ -13,7 +13,6 @@ export function HomePage({ cart, loadCart }) {
     const fetchProducts = async () => {
       try {
         const response = await axios.get('/api/products');
-        console.log('API response data:', response.data); 
         setProducts(response.data);
       } catch (error) {
         console.error('Error fetching products:', error);
