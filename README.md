@@ -60,3 +60,7 @@ This project has a **React frontend (converted to TypeScript)** (`ecommerce-proj
 * Make sure the backend is running first, otherwise the frontend cannot fetch product data.
 * Some features (like search) may not be fully functional yet.
 
+---
+## Acknowledgments
+
+This project was developed based on the tutorials provided by [SuperSimpleDiv](https://www.youtube.com/@SuperSimpleDev).Their tutorials on building a React ecommerce project were instrumental in creating this project.
