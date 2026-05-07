@@ -1,24 +1,27 @@
 import { DataTypes } from 'sequelize';
 import { sequelize } from './index.js';
 
-export const Order = sequelize.define('Order', {
+export const OrderProduct = sequelize.define('OrderProduct', {
   id: {
     type: DataTypes.UUID,
     defaultValue: DataTypes.UUIDV4,
     primaryKey: true
   },
-  orderTimeMs: {
-    type: DataTypes.BIGINT,
+  orderId: {
+    type: DataTypes.UUID,
     allowNull: false
   },
-  totalCostCents: {
+  productId: {
+    type: DataTypes.UUID,
+    allowNull: false
+  },
+  quantity: {
     type: DataTypes.INTEGER,
     allowNull: false
   },
-  products: {
-    type: DataTypes.JSON,
-    allowNull: false,
-    defaultValue: []
+  estimatedDeliveryTimeMs: {
+    type: DataTypes.BIGINT,
+    allowNull: false
   },
   createdAt: {
     type: DataTypes.DATE(3)
