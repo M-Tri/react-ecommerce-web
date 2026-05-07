@@ -1,66 +1,103 @@
-````markdown
-# Ecommerce Project
+# SuperSimpleMarket
 
-This project has a **React frontend (converted to TypeScript)** (`ecommerce-project`) and a **Node.js backend** (`ecommerce-backend`). Follow these steps to run it locally.
+SuperSimpleMarket is a full-stack ecommerce demo with a React + TypeScript frontend and an Express/Sequelize backend. It includes product browsing, search, cart management, checkout, order history, package tracking, and a small test suite.
 
----
+The project started from a SuperSimpleDev ecommerce tutorial and was extended with a cleaner repo structure, TypeScript cleanup, a custom backend flow, tests, improved UI polish, empty states, working search, buy-again behavior, tracking routes, and an order success page.
 
-## Prerequisites
+## Screenshots
 
-- Node.js and npm installed
-- Both frontend and backend folders available
+![Homepage](docs/screenshots/home.png)
 
----
+![Checkout](docs/screenshots/checkout.png)
 
-## Run the Backend
+![Orders](docs/screenshots/orders.png)
 
-1. Go to the backend folder:
-   ```bash
-   cd ecommerce-backend
-````
+## Project Structure
 
-2. Install dependencies:
+```text
+react-ecommerce-web/
+  frontend/             React, TypeScript, Vite, Vitest
+  backend/              Express API, Sequelize models, seed data, product assets
+  tutorial-js-version/  Original/older JavaScript tutorial version kept for reference
+  docs/screenshots/     README preview images
+  README.md
+```
 
-   ```bash
-   npm install
-   ```
-3. Start the backend server:
+## Tech Stack
 
-   ```bash
-   node server.js
-   ```
-4. Backend usually runs on `http://localhost:5000`.
+- React 19
+- TypeScript
+- Vite
+- React Router
+- Axios
+- Vitest + Testing Library
+- Node.js + Express
+- Sequelize
+- sql.js-backed local database setup
 
----
+## Features
 
-## Run the Frontend
+- Product grid with real API data
+- Product search by name and keywords
+- Add to cart and buy again
+- Cart quantity count in the header and checkout
+- Delivery option selection
+- Editable cart item quantity
+- Payment summary and order creation
+- Order success page
+- Order history with tracking links
+- Dynamic package tracking page
+- Empty cart, empty orders, and empty search states
+- Responsive layout and improved card/button styling
 
-1. Go to the frontend folder:
+## Run Locally
 
-   ```bash
-   cd ../ecommerce-project
-   ```
-2. Install dependencies:
+Install and start the backend:
 
-   ```bash
-   npm install
-   ```
-3. Start the development server:
+```bash
+cd backend
+npm install
+npm start
+```
 
-   ```bash
-   npm run dev
-   ```
-4. Open the URL printed in the terminal (usually `http://localhost:5173`).
+The backend runs on `http://localhost:3000`.
 
----
+Install and start the frontend in a second terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open the Vite URL shown in the terminal, usually `http://localhost:5173`.
+
+## Scripts
+
+Frontend:
+
+```bash
+cd frontend
+npm run dev
+npm run build
+npm run lint
+npm test
+```
+
+Backend:
+
+```bash
+cd backend
+npm start
+npm run dev
+```
 
 ## Notes
 
-* The frontend is written in TypeScript, but type checking may not be fully implemented.
-* Make sure the backend is running first, otherwise the frontend cannot fetch product data.
-* Some features (like search) may not be fully functional yet.
+- The Vite dev server proxies `/api` requests to `http://localhost:3000`.
+- `npm run build` in `frontend/` outputs the production frontend into `backend/dist`.
+- `tutorial-js-version/` is intentionally kept as a labeled reference folder, not the main app.
 
----
 ## Acknowledgments
 
-This project was developed based on the tutorials provided by [SuperSimpleDiv](https://www.youtube.com/@SuperSimpleDev).Their tutorials on building a React ecommerce project were instrumental in creating this project.
+This project is based on the ecommerce project tutorial by [SuperSimpleDev / SuperSimpleDiv](https://www.youtube.com/@SuperSimpleDev). I used the tutorial as the foundation and extended it with a cleaner full-stack structure, TypeScript-focused frontend work, backend integration, testing, UI polish, search, checkout updates, tracking, empty states, and README documentation.
