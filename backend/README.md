@@ -1,6 +1,6 @@
 ## Intro to the Project
 This is the backend for the [ecommerce-project](https://github.com/SuperSimpleDev/ecommerce-project).
-- 95% of the code was generated with AI.
+It provides the local API used by the React ecommerce frontend.
 
 ## Video Tutorials
 **Part 1 - Create the Backend:** https://youtu.be/vBprybSmJs8
@@ -12,6 +12,15 @@ This is the backend for the [ecommerce-project](https://github.com/SuperSimpleDe
 4. Open this code in VSCode.
 5. At the top menu of VSCode, click `Terminal` > `New Terminal`.
 6. In the Terminal, run `npm install`, and run `npm run dev`.
+
+## Tests
+Run the backend integration tests with:
+
+```bash
+npm test
+```
+
+The reset endpoint is disabled in production and requires an `x-admin-secret` header in development/test environments.
 
 ## Troubleshooting
 If you run into issues, see the [troubleshooting steps](troubleshooting.md).
